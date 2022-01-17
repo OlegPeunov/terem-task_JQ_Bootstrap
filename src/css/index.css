@@ -1,0 +1,33 @@
+.root{
+  max-width: 1440px;
+  background-color: #FCFCFC;
+  margin: 0 auto;
+
+}
+
+.line{
+  display: flex;
+  height: 33.33vh;
+  min-height: 210px;
+  
+}
+
+.block{
+  background-color: #4285F4;
+  min-height: 200px;
+  min-width: 250px;
+  margin: 5px;
+  border: black 1px solid;
+  display: flex;
+
+}
+
+
+@media (max-width: 650px){
+	.line{
+    height: auto;
+    flex-direction: column;
+
+	}
+
+}
