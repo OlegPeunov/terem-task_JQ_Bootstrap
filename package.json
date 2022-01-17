@@ -16,8 +16,5 @@
     "url": "https://github.com/OlegPeunov/terem-task_JQ_Bootstrap/issues"
   },
   "homepage": "https://github.com/OlegPeunov/terem-task_JQ_Bootstrap#readme",
-  "devDependencies": {
-    "-": "^0.0.1",
-    "webpack": "^5.66.0"
-  }
+
 }
