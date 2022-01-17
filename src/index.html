@@ -19,7 +19,7 @@
   <body class="bg-dark">
     <div class=" root container ">
       <section class="line line d-md-flex align-items-center">
-        <div class="col block col-lg">
+        <div id="first-block"class="first-block col block col-lg">
           <h1 class="m-auto text-dark">Заголовок H1</h1>
         </div>
       </section>
@@ -27,7 +27,7 @@
       <section class="line d-md-flex align-items-center" >
         <div class="col block bg-danger col-lg">
         </div>
-        <div class="col block col-lg" style="border: dashed 1px black;">
+        <div class="second-block col block col-lg " style="border: dashed 1px black;">
         </div>
         <div class="col block bg-warning col-lg">
         </div>
@@ -35,15 +35,15 @@
 
       <section class="line line d-md-flex align-items-center" >
         <div class="col block col-lg">
-          <button type="button" class="btn btn-warning m-auto">Кнопка 1</button>
+          <button type="button" id="button-1" class="btn btn-warning m-auto">Кнопка 1</button>
         </div>
         <div class="col block col-lg" style="flex: 2;">
-          <button type="button" class="btn btn-success m-auto">Кнопка 2</button>
+          <button type="button" id="button-2" class="btn btn-success m-auto">Кнопка 2</button>
         </div>
       </section>
 
 
-      <div class="modal fade d-flex" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">

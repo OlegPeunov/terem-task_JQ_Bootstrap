@@ -15,13 +15,21 @@
 .block{
   background-color: #4285F4;
   min-height: 200px;
-  min-width: 250px;
+  width: 100%;
   margin: 5px;
   border: black 1px solid;
   display: flex;
 
 }
 
+.first-block-hidden{
+  display: none;
+  /* visibility: hidden; */
+}
+
+.second-block-order{
+  order: -1;
+}
 
 @media (max-width: 650px){
 	.line{

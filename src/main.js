@@ -1,26 +1,18 @@
-
-
 $(document).ready(function(){
-    $(window).on('load',function(){
-        $('#exampleModal').modal('show')
-    })
-});
+  $(window).on('load',function(){
+      $('#exampleModal').modal('show')
+  })
 
-
-// const container = document.querySelector('.root');
-// const form = container.querySelector('#exampleModal');
-
-// console.log('test')
-
-// $(window).on('load',function(){
-//     $('#myModal').modal('show');
-// });
-
-// document.onreadystatechange = function () {
-// if (document.readyState == "complete") {
+  
+  
+  $('#button-1').on( "click", function(){
+    $("div.first-block").toggleClass('first-block-hidden');
+  })
+  
+  $('#button-2').on( "click", function(){
     
-//     console.log(form);
-//     form.modal('show')
-// }
-// }
+    $("div.second-block").toggleClass('second-block-order');
+  })
 
+    
+});
